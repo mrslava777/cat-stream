@@ -1,23 +1,9 @@
-# 🐱 TikTok Cat Stream — Simple Edition
+# TikTok Cat Stream
 
-## Файлы (все в корне — без папок!)
+Interactive TikTok Live overlay with animated cat.
 
-```
-cat-stream/
-├── main.py          # Сервер
-├── requirements.txt # Зависимости
-├── Procfile         # Railway
-├── railway.json     # Railway config
-├── .gitignore       # Git ignore
-└── README.md        # Этот файл
-```
+## Deploy
 
-## 🚀 Деплой
-
-1. Залей ВСЕ файлы на GitHub (в корень репозитория, без папок!)
-2. Railway → New Project → Deploy from GitHub
-3. Готово!
-
-## 🔌 Подключение
-
-WebSocket URL: `wss://ВАШ-URL.railway.app/ws`
+1. Connect GitHub repo to Railway
+2. Railway auto-detects Procfile and requirements.txt
+3. Done!
