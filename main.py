@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""TikTok Cat Stream Server — Simple Edition (all files in root)"""
+"""TikTok Cat Stream Server"""
 
 import asyncio
 import json
@@ -14,7 +14,7 @@ try:
 except ImportError:
     TIKTOK_AVAILABLE = False
 
-PORT = 8080
+PORT = int(os.getenv("PORT", "8080"))
 HOST = os.getenv("HOST", "0.0.0.0")
 
 connected_clients = {}
